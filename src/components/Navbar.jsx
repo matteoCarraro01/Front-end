@@ -8,7 +8,7 @@ export default function MyNavbar({ query, setQuery, onSearch }) {
         <div className="ig-navbar">
             <Container className="ig-navbar-inner">
 
-                {/* LEFT */}
+
                 <div className="ig-left">
                     <span className="ig-logo">GameStore</span>
                     <div className="ig-menu">
@@ -18,7 +18,7 @@ export default function MyNavbar({ query, setQuery, onSearch }) {
                     </div>
                 </div>
 
-                {/* RIGHT */}
+
                 <div className="ig-right">
                     <input
                         type="text"
